@@ -1,0 +1,448 @@
+html {
+  font-size: 100px;
+  $padding: 0.3rem;
+  $mainColor: #37c2bc;
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+
+
+    // headerWrap
+    .headerWrap {
+      width: 100%;
+      height: 88px;
+      line-height: 88px;
+      background-color: $mainColor;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      // titleWrap
+      .titleWrap {
+        margin-left: $padding;
+        height: 88px;
+
+        .title-item {
+          height: 88px;
+          line-height: 88px;
+          margin: 0 13px;
+          float: left;
+          font-size: 24px;
+          color: #ade6e3;
+          position: relative;
+        }
+
+        .title-item.now {
+          color: #fff;
+          font-size: 32px;
+        }
+
+        .unread:after {
+          content: "";
+          width: 12px;
+          height: 12px;
+          background-color: #ff3744;
+          border-radius: 50%;
+          position: absolute;
+          top: 24px;
+          right: -16px;
+        }
+      }
+
+      // iconWrap
+      .iconWrap {
+        height: 88px;
+        line-height: 88px;
+        margin-right: $padding;
+
+        .iconfont {
+          font-size: 32px;
+          color: #fff;
+        }
+      }
+
+
+    }
+
+    // chat 二者只能有一个  
+    .chat {
+      width: 100%;
+      position: absolute;
+      top: 88px;
+      bottom: 98px;
+      background-color: #fff;
+      
+    
+
+      // chatHead
+      .chatHead {
+        width: 100%;
+        height: 0.7rem;
+        position: absolute;
+        top: 0;
+        border-bottom: 1px solid #ccc;
+
+
+        // person
+        .person {
+          height: 0.7rem;
+          line-height: 0.7rem;
+          font-size: 0.24rem;
+          color: #333;
+          margin-left: $padding;
+        }
+
+        // deal
+        .deal {
+          height: 0.7rem;
+          line-height: 0.7rem;
+          margin-right: $padding;
+
+          span {
+            font-size: 0.18rem;
+            line-height: 0.18rem;
+            display: inline-block;
+            padding: 0.1rem;
+            border: 1px solid #ccc;
+            border-radius: 0.04rem;
+            color: #8d8d8d;
+            margin: 0 0.04rem;
+          }
+
+        }
+
+
+      }
+
+
+
+      // contentWrap
+      .contentWrap {
+        width: 100%;
+        position: absolute;
+        top: 0.7rem;
+        bottom: 0;
+        overflow: hidden;
+
+        // content
+        .content {
+          padding: 0 $padding;
+
+          //  content-item
+          .content-item {
+            padding: 0.22rem 0;
+            width: 100%;
+
+            // imgWrap
+            .imgWrap {
+              width: 0.84rem;
+              height: 0.84rem;
+              border-radius: 50%;
+
+              img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+              }
+            }
+
+            // infoWrap
+            .infoWrap {
+              width: 4.7rem;
+              margin-left: 0.25rem;
+
+
+              // title
+              .title {
+                width: 100%;
+                position: relative;
+                height: 0.3rem;
+                line-height: 0.3rem;
+
+                // name
+                .name {
+                  font-size: 0.26rem;
+                  color: #333;
+                  font-weight: bold;
+                  vertical-align: middle;
+                }
+
+                // info
+                .info {
+                  color: #c3c3c3;
+                  font-size: 0.16rem;
+                  vertical-align: middle;
+                  margin-left: 0.1rem;
+                }
+
+                // date
+                .date {
+                  color: #c3c3c3;
+                  font-size: 0.16rem;
+                  position: absolute;
+                  right: 0;
+                  top: 0;
+                  vertical-align: middle;
+                }
+
+              }
+
+              // words
+              .words {
+                margin-top: 0.22rem;
+                font-size: 0.2rem;
+                color: #c3c3c3;
+                width: 4.04rem;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+              }
+            }
+
+          }
+
+        }
+      }
+
+
+    }
+
+    // interact
+    .interact {
+      width: 100%;
+      position: absolute;
+      top: 88px;
+      bottom: 98px;
+      display: none;
+      
+
+      // interactHead
+      .interactHead {
+        height: 134px;
+        position: absolute;
+        top: 0;
+        left: $padding;
+        right: $padding;
+
+        // inter-item
+        .inter-item {
+          float: left;
+          margin-right: 0.46rem;
+
+          // tag
+          .tag {
+            height: 0.64rem;
+            line-height: 0.64rem;
+            font-size: 0.2rem;
+            color: #d9d9d9;
+          }
+
+          .tag.active {
+            color: #333;
+          }
+
+          // selection
+          .selection {
+            position: absolute;
+            left: 0;
+            top: 0.64rem;
+
+            // selec-item
+            .selec-item {
+              float: left;
+              border: 1px solid #ccc;
+              color: #333;
+              padding: 0.17rem 0.27rem;
+              margin-right: 0.1rem;
+              border-radius: 0.04rem;
+            }
+
+            // 点击中的
+            .selec-item.active {
+              border: 1px solid $mainColor;
+              color: $mainColor;
+              background-color: #ebf9f8;
+            }
+          }
+
+        }
+
+
+
+
+      }
+
+      // contentWrap
+      .contentWrap {
+        width: 100%;
+        position: absolute;
+        top: 134px;
+        bottom: 0;
+        background-color: #f5f5f6;
+        overflow: hidden;
+
+        // content
+        .content {
+          width: 100%;
+
+
+          // cont-item
+          .cont-item {
+            position: relative;
+            padding: 0 $padding;
+            background-color: #fff;
+            overflow: hidden;
+            margin-top: 0.12rem;
+
+            &:nth-of-type(1) {
+              margin-top: 0;
+            }
+
+            // title
+            .title {
+              font-size: 0.28rem;
+              font-weight: bold;
+              line-height: 0.28rem;
+              color: #333;
+              margin-top: 0.38rem;
+            }
+
+            // info
+            .info {
+              font-size: 0.22rem;
+              line-height: 0.22rem;
+              color: #333;
+              margin-top: 0.2rem;
+            }
+
+            // infoTagsWrap
+            .infoTagsWrap {
+              margin-top: 0.2rem;
+
+              // infotag-item
+              .infotag-item {
+                float: left;
+                padding: 0.1rem;
+                background-color: #f5f5f5;
+                color: #666;
+                margin-right: 0.1rem;
+                border-radius: 4px;
+              }
+
+            }
+
+            // userWrap
+            .userWrap {
+              margin-top: 0.22rem;
+              margin-bottom: 0.24rem;
+
+              // userAvar
+              .userAvar {
+                display: inline-block;
+                width: 0.44rem;
+                height: 0.44rem;
+                border-radius: 50%;
+                vertical-align: middle;
+
+                img {
+                  display: block;
+                  width: 100%;
+                  height: 100%;
+                  border-radius: 50%;
+                }
+              }
+
+              // userName
+              .userName {
+                margin-left: 0.15rem;
+                font-size: 0.2rem;
+                vertical-align: middle;
+              }
+
+            }
+
+            // sarary
+            .sarary {
+              font-size: 0.20rem;
+              color: $mainColor;
+              position: absolute;
+              right: $padding;
+              top: 0.38rem;
+            }
+
+          }
+
+
+        }
+
+
+
+
+      }
+
+
+
+    }
+
+
+
+
+
+
+
+    // footerWrap
+    .footerWrap {
+      width: 100%;
+      height: 98px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background-color: #fff;
+
+      .tabContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .tab-item {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          .iconfont {
+            font-size: 0.34rem;
+            color: #444;
+            flex: 1;
+          }
+
+          .unread:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 48px;
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 50%;
+            background-color: #ff4f59;
+          }
+
+          .con {
+            font-size: 0.20rem;
+            color: #afafaf;
+          }
+        }
+      }
+    }
+
+  }
+
+}
