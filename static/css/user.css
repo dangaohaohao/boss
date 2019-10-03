@@ -1,0 +1,301 @@
+html {
+  font-size: 100px;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+}
+html body .headerWrap {
+  width: 100%;
+  height: 88px;
+  line-height: 88px;
+  background-color: #37c2bc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+html body .headerWrap .username {
+  height: 88px;
+  line-height: 88px;
+  font-size: 32px;
+  color: #fff;
+  margin-left: 0.3rem;
+}
+html body .headerWrap .iconsWrap {
+  height: 88px;
+  line-height: 88px;
+  margin-right: 0.3rem;
+}
+html body .headerWrap .iconsWrap .iconfont {
+  font-size: 32px;
+  color: #fff;
+  margin: 0 14px;
+}
+html body .contentWrap {
+  width: 100%;
+  position: absolute;
+  top: 88px;
+  bottom: 98px;
+  background-color: #f5f5f6;
+  overflow: hidden;
+}
+html body .contentWrap .content {
+  width: 100%;
+  height: 160%;
+}
+html body .contentWrap .content .onlineResume {
+  width: 100%;
+  height: 3.22rem;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  background-color: #37c2bc;
+  color: #fff;
+}
+html body .contentWrap .content .onlineResume .edit {
+  font-size: 0.22rem;
+  color: #fff;
+  margin-top: 0.7rem;
+  margin-left: 0.3rem;
+}
+html body .contentWrap .content .onlineResume .edit .iconfont {
+  font-size: 0.22rem;
+  color: #fff;
+  margin-right: 0.1rem;
+}
+html body .contentWrap .content .onlineResume .userAvar {
+  width: 1.08rem;
+  height: 1.08rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0.3rem;
+}
+html body .contentWrap .content .onlineResume .userAvar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+html body .contentWrap .content .onlineResume .situation {
+  margin-top: 0.46rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body .contentWrap .content .onlineResume .situation .situ-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html body .contentWrap .content .onlineResume .situation .situ-item .num {
+  flex: 1;
+  font-size: 0.26rem;
+  font-weight: bold;
+}
+html body .contentWrap .content .onlineResume .situation .situ-item .category {
+  flex: 1;
+  font-size: 0.18rem;
+  color: #90ddd9;
+}
+html body .contentWrap .content .onlineResume .vipCard {
+  margin: 0.4rem 0.3rem 0;
+  background-color: #262626;
+  border-radius: 0.1rem;
+  padding: 0 .24rem 0;
+}
+html body .contentWrap .content .onlineResume .vipCard h5 {
+  height: 0.64rem;
+  line-height: 0.64rem;
+  color: #af8162;
+  position: relative;
+}
+html body .contentWrap .content .onlineResume .vipCard h5 .vipLogo {
+  font-size: 0.22rem;
+  margin-right: 0.05rem;
+}
+html body .contentWrap .content .onlineResume .vipCard h5 .vipInfo {
+  font-size: 0.2rem;
+}
+html body .contentWrap .content .onlineResume .vipCard h5 .link {
+  font-size: 0.18rem;
+  line-height: 0.18rem;
+  position: absolute;
+  right: 0.24rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #af8162;
+  padding: 0.1rem 0.12rem;
+  background-color: #e6aa82;
+  border-radius: 0.3rem;
+}
+html body .contentWrap .content .onlineResume .vipCard .con {
+  font-size: 0.18rem;
+  color: #af8162;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+html body .contentWrap .content .assitantWrap {
+  position: absolute;
+  top: 3.22rem;
+  width: 100%;
+  background-color: #fff;
+}
+html body .contentWrap .content .assitantWrap .assi-title {
+  width: 100%;
+  height: 0.3rem;
+  line-height: 0.3rem;
+  margin-top: 0.5rem;
+}
+html body .contentWrap .content .assitantWrap .assi-title .title {
+  font-size: 0.28rem;
+  color: #333;
+  margin-left: 0.32rem;
+}
+html body .contentWrap .content .assitantWrap .assi-title .other {
+  font-size: 0.2rem;
+  color: #dedede;
+  margin-right: 0.32rem;
+}
+html body .contentWrap .content .assitantWrap .assi-title .other .iconfont {
+  font-size: 0.16rem;
+  font-weight: bold;
+  color: #dedede;
+  margin-left: 0.1rem;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap {
+  width: 100%;
+  margin-top: 0.3rem;
+  overflow: hidden;
+  background-color: #fafafa;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils {
+  width: 148%;
+  padding: 0 0.35rem;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item {
+  margin: 0 0.08rem;
+  margin-top: 0.1rem;
+  padding: 0.24rem 0.20rem;
+  background-color: #fff;
+  float: left;
+  border-radius: 0.1rem;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item .con {
+  margin-left: 0.2rem;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item .con .util-title {
+  font-size: 0.24rem;
+  color: #333;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item .con .util-info {
+  font-size: 0.18rem;
+  color: #c6c6c6;
+  margin-top: 0.14rem;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item .imgWrap {
+  width: 0.64rem;
+  height: 0.64rem;
+  border-radius: 0.06rem;
+  margin-right: 0.18rem;
+}
+html body .contentWrap .content .assitantWrap .utilsWrap .utils .util-item .imgWrap img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.06rem;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap {
+  margin-top: 0.08rem;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item {
+  width: 100%;
+  background-color: #fff;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item a {
+  padding: 0.36rem 0.32rem;
+  display: block;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item a .iconfont {
+  font-size: 0.26rem;
+  color: #333;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item a .name {
+  font-size: 0.22rem;
+  color: #333;
+  margin-left: 0.20rem;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item a .info {
+  font-size: 0.20rem;
+  color: #b7b7b7;
+}
+html body .contentWrap .content .assitantWrap .categoryWrap .cate-item a .info .iconfont {
+  font-size: 0.20rem;
+  color: #b7b7b7;
+  margin-left: 0.06rem;
+}
+html body .contentWrap .content .assitantWrap .infoWrap {
+  padding: 0.44rem 0.7rem 0.1rem;
+  border-top: 1px solid #ccc;
+}
+html body .contentWrap .content .assitantWrap .infoWrap p {
+  height: 0.34rem;
+  line-height: 0.34rem;
+  font-size: 0.18rem;
+  color: #cecece;
+  text-align: center;
+}
+html body .contentWrap .content .assitantWrap .infoWrap p .phone, html body .contentWrap .content .assitantWrap .infoWrap p .time {
+  margin: 0 0.1rem;
+}
+html body .contentWrap .content .assitantWrap .infoWrap p .line {
+  width: 0.1rem;
+  height: 0.1rem;
+  background-color: #ccc;
+  margin: 0 0.1rem;
+}
+html body .footerWrap {
+  width: 100%;
+  height: 98px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+html body .footerWrap .tabContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+html body .footerWrap .tabContent .tab-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+html body .footerWrap .tabContent .tab-item .iconfont {
+  font-size: 0.34rem;
+  color: #444;
+  flex: 1;
+}
+html body .footerWrap .tabContent .tab-item .unread:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 48px;
+  width: 0.1rem;
+  height: 0.1rem;
+  border-radius: 50%;
+  background-color: #ff4f59;
+}
+html body .footerWrap .tabContent .tab-item .con {
+  font-size: 0.20rem;
+  color: #afafaf;
+}

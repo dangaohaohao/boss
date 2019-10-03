@@ -15,6 +15,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-iconfontjiantou4:before {
+  content: "\e634";
+}
+
+
 .icon-xiaoxi:before {
   content: "\e638";
 }

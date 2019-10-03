@@ -1,0 +1,423 @@
+html {
+  font-size: 100px;
+  $padding: 0.3rem;
+  $mainColor: #37c2bc;
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+
+
+    // headerWrap
+    .headerWrap {
+      width: 100%;
+      height: 88px;
+      line-height: 88px;
+      background-color: $mainColor;
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      // username
+      .username {
+        height: 88px;
+        line-height: 88px;
+        font-size: 32px;
+        color: #fff;
+        margin-left: $padding;
+        // position: absolute; 这个名字应该是定位的，定位在下面
+      }
+
+      // iconsWrap
+      .iconsWrap {
+        height: 88px;
+        line-height: 88px;
+        margin-right: $padding;
+
+        .iconfont {
+          font-size: 32px;
+          color: #fff;
+          margin: 0 14px;
+        }
+      }
+
+
+
+    }
+
+    // contentWrap
+    .contentWrap {
+      width: 100%;
+      position: absolute;
+      top: 88px;
+      bottom: 98px;
+      background-color: #f5f5f6;
+      overflow: hidden;
+
+      // content
+      .content {
+        width: 100%;
+        height: 160%;
+
+        // onlineResume
+        .onlineResume {
+          width: 100%;
+          height: 3.22rem;
+          overflow: hidden;
+          position: absolute;
+          top: 0;
+          background-color: $mainColor;
+          color: #fff;
+
+          // edit
+          .edit {
+            font-size: 0.22rem;
+            color: #fff;
+            margin-top: 0.7rem;
+            margin-left: $padding;
+
+            .iconfont {
+              font-size: 0.22rem;
+              color: #fff;
+              margin-right: 0.1rem;
+            }
+
+          }
+
+          // userAvar
+          .userAvar {
+            width: 1.08rem;
+            height: 1.08rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            right: $padding;
+
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 50%;
+            }
+          }
+
+          // situation
+          .situation {
+            margin-top: 0.46rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            // situ-item
+            .situ-item {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+
+              // num
+              .num {
+                flex: 1;
+                font-size: 0.26rem;
+                font-weight: bold;
+              }
+
+              // category
+              .category {
+                flex: 1;
+                font-size: 0.18rem;
+                color: #90ddd9;
+              }
+
+
+
+
+            }
+          }
+
+          // vipCard
+          .vipCard {
+            margin: 0.4rem 0.3rem 0;
+            background-color: #262626;
+            border-radius: 0.1rem;
+            padding: 0 .24rem 0;
+
+            // h5
+            h5 {
+              height: 0.64rem;
+              line-height: 0.64rem;
+              color: #af8162;
+              position: relative;
+
+              // vipLogo
+              .vipLogo {
+                font-size: 0.22rem;
+                margin-right: 0.05rem;
+              }
+
+              // vipInfo
+              .vipInfo {
+                font-size: 0.2rem;
+              }
+
+              // link
+              .link {
+                font-size: 0.18rem;
+                line-height: 0.18rem;
+                position: absolute;
+                right: 0.24rem;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #af8162;
+                padding: 0.1rem 0.12rem;
+                background-color: #e6aa82;
+                border-radius: 0.3rem;
+              }
+
+            }
+
+            // con
+            .con {
+              font-size: 0.18rem;
+              color: #af8162;
+              padding-top: 0.4rem;
+              padding-bottom: 0.4rem;
+            }
+          }
+
+        }
+
+
+        // assitant
+        .assitantWrap {
+          position: absolute;
+          top: 3.22rem;
+          width: 100%;
+          background-color: #fff;
+
+          // assi-title
+          .assi-title {
+            width: 100%;
+            height: 0.3rem;
+            line-height: 0.3rem;
+            margin-top: 0.5rem;
+
+            // title
+            .title {
+              font-size: 0.28rem;
+              color: #333;
+              margin-left: 0.32rem;
+            }
+
+            // other
+            .other {
+              font-size: 0.2rem;
+              color: #dedede;
+              margin-right: 0.32rem;
+
+              .iconfont {
+                font-size: 0.16rem;
+                font-weight: bold;
+                color: #dedede;
+                margin-left: 0.1rem;
+              }
+            }
+          }
+
+          // utilsWrap
+          .utilsWrap {
+            width: 100%;
+            margin-top: 0.3rem;
+            overflow: hidden;
+            background-color: #fafafa;
+
+            // utils
+            .utils {
+              width: 148%;
+              padding: 0 0.35rem;
+            
+
+              // util-item
+              .util-item {
+                // width height 不是确定的值
+                // width: 2.4rem;
+                // height: 1.08rem;
+                margin: 0 0.08rem;
+                margin-top: 0.1rem;
+                padding: 0.24rem 0.20rem;
+                background-color: #fff;
+                float: left;
+                border-radius: 0.1rem;
+                box-shadow: 0 0 12px rgba(0, 0, 0, .1);
+
+                // con
+                .con {
+                  margin-left: 0.2rem;
+
+                  // util-title
+                  .util-title {
+                    font-size: 0.24rem;
+                    color: #333;
+                  }
+
+                  // util-info
+                  .util-info {
+                    font-size: 0.18rem;
+                    color: #c6c6c6;
+                    margin-top: 0.14rem;
+                  }
+                }
+
+                // imgWrap
+                .imgWrap {
+                  width: 0.64rem;
+                  height: 0.64rem;
+                  border-radius: 0.06rem;
+                  margin-right: 0.18rem;
+
+                  img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 0.06rem;
+                  }
+                }
+
+
+              }
+            }
+          }
+
+          // categoryWrap
+          .categoryWrap {
+            margin-top: 0.08rem;
+
+            // cate-item
+            .cate-item {
+              width: 100%;
+              background-color: #fff;
+
+              a {
+                padding: 0.36rem 0.32rem;
+                display: block;
+
+                // iconfont
+                .iconfont {
+                  font-size: 0.26rem;
+                  color: #333;
+                }
+
+                // name
+                .name {
+                  font-size: 0.22rem;
+                  color: #333;
+                  margin-left: 0.20rem;
+                }
+
+                // info
+                .info {
+                  font-size: 0.20rem;
+                  color: #b7b7b7;
+
+                  .iconfont {
+                    font-size: 0.20rem;
+                    color: #b7b7b7;
+                    margin-left: 0.06rem;
+                  }
+                }
+
+              }
+            }
+          }
+
+          // infoWrap
+          .infoWrap {
+            padding: 0.44rem 0.7rem 0.1rem;
+            border-top: 1px solid #ccc;
+
+            p {
+              height: 0.34rem;
+              line-height: 0.34rem;
+              font-size: 0.18rem;
+              color: #cecece;
+              text-align: center;
+              
+              .phone, .time {
+                margin: 0 0.1rem;
+              }
+
+              .line {
+                width: 0.1rem;
+                height: 0.1rem;
+                background-color: #ccc;
+                margin: 0 0.1rem;
+              }
+            }
+          }
+
+
+
+
+        }
+
+      }
+
+
+
+
+    }
+
+
+    // footerWrap
+    .footerWrap {
+      width: 100%;
+      height: 98px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      .tabContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .tab-item {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          .iconfont {
+            font-size: 0.34rem;
+            color: #444;
+            flex: 1;
+          }
+
+          .unread:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 48px;
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 50%;
+            background-color: #ff4f59;
+          }
+
+          .con {
+            font-size: 0.20rem;
+            color: #afafaf;
+          }
+        }
+      }
+    }
+  }
+
+}
