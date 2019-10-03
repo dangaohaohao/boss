@@ -1,0 +1,224 @@
+
+html{
+  font-size: 100px;
+  $padding: 0.3rem;
+  $mainColor: #37c2bc;
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+
+
+    // headerWrap
+    .headerWrap {
+      width: 100%;
+      height: 88px;
+      line-height: 88px;
+      background-color: $mainColor;
+      position: absolute;
+      top: 0;
+      left: 0;
+      
+      // title
+      .title {
+        height: 88px;
+        line-height: 88px;
+        font-size: 38px;
+        color: #fff;
+        margin-left: $padding;
+      }
+
+      // iconWrap
+      .iconWrap {
+        margin-right: $padding;
+        height: 88px;
+        line-height: 88px;
+        
+        // iconfont
+        .iconfont {
+          display: inline-block;
+          width: 54px;
+          height: 88px;
+          font-size: 34px;
+          color: #fff;
+          text-align: center;
+          line-height: 88px;
+        }
+      }
+
+    }
+
+    // contentWrap
+    .contentWrap {
+      width: 100%;
+      position: absolute;
+      top: 88px;
+      bottom: 98px;
+      background-color: #f5f5f6; 
+      overflow: hidden;
+
+      // content
+      .content {
+        width: 100%;
+
+        // content-item
+        .content-item {
+          background-color: #fff;
+          margin-top: 0.15rem;
+
+          &:nth-of-type(1) {
+            margin-top: 0;
+          }
+
+          a {
+            display: block;
+            padding: 0.36rem $padding 0.26rem;
+            
+            // companyAvar
+            .companyAvar {
+              width: 0.74rem;
+              height: 100%;
+              img {
+                width: 100%;
+              } 
+            }
+
+            // companyInfo
+            .companyInfo {
+              margin-left: 0.28rem;
+
+              // comName
+              .comName {
+                font-size: 0.28rem;
+                font-weight: bold;
+                color: #333;
+              }
+
+              // info
+              .info {
+                font-size: 0.20rem;
+                color: #686868;
+                margin-top: 0.20rem;
+              }
+
+              // infoTags
+              .infoTags {
+                margin-top: 0.20rem;
+                // tag
+                .tag {
+                  font-size: 0.16rm;
+                  padding: 0.1rem 0.12rem;
+                  color: #3c3c3c;
+                  background-color: #f5f5f5;
+                  border-radius: 0.04rem;
+                  // nums
+                  .nums {
+                    color: #3c3c3c;
+                  }
+                }
+              }
+
+              // jobsWrap
+              .jobsWrap {
+                margin-top: 0.30rem;
+                border-top: 0.01rem solid #ccc;
+                padding-top: 0.28rem;
+                font-size: 0.18rem;
+
+                // jobdescription
+                .jobdescription {
+                  width: 4.6rem;
+                  color: #525252;
+
+                  // 字体溢出处理
+                  white-space: nowrap;
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+
+                  // jobname
+                  .jobname {
+                    color: $mainColor;
+                    margin: 0 0.05rem;
+                    // jobnum
+                    .jobnum {
+
+                    }
+                  }
+
+                  // more
+                  .more {
+                    color: #ccc;                  
+                  }
+                }
+              }
+
+            }
+
+
+
+          }
+        }
+
+      }
+
+
+
+
+    }
+
+
+    // footerWrap
+    .footerWrap {
+      width: 100%;
+      height: 98px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+
+      .tabContent {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .tab-item {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+
+          .iconfont {
+            font-size: 0.34rem;
+            color: #444;
+            flex: 1;
+          }
+
+          .unread:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 48px;
+            width: 0.1rem;
+            height: 0.1rem;
+            border-radius: 50%;
+            background-color: #ff4f59;
+          }
+
+          .con {
+            font-size: 0.20rem;
+            color: #afafaf;
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+
