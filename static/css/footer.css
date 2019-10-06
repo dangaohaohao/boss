@@ -43,3 +43,9 @@
   font-size: 0.20rem;
   color: #afafaf;
 }
+.footerWrap .tabContent .tab-item.active a .iconfont {
+  color: #111;
+}
+.footerWrap .tabContent .tab-item.active a .con {
+  color: #111;
+}

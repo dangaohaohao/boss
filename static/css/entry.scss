@@ -1,0 +1,64 @@
+html {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  background-color: #16afac;
+
+  @keyframes show {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+
+    .wrap {
+      .info {
+        font-size: 0.36rem;
+        color: #fff;
+        margin-top: 4.3rem;
+        animation: show 1s linear 1s forwards;
+        text-align: center;
+        opacity: 0;
+      }
+
+      .logoWrap {
+        width: 100%;
+        position: absolute;
+        bottom: 0.8rem;
+        animation: show 1s linear 1s forwards;
+        opacity: 0;
+
+        .appName {
+          font-size: 0.42rem;
+          font-weight: bold;
+          color: #fff;
+          width: 100%;
+          text-align: center;
+        }
+
+        .copyRight {
+          margin-top: 0.24rem;
+          color: #a3d9d9;
+          font-size: 0.25rem;
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+
+
+
+    }
+
+  }
+}

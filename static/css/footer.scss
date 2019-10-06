@@ -49,5 +49,19 @@
 
         }
       }
+
+      .tab-item.active {
+
+        a {
+          .iconfont {
+            color: #111;
+          }
+
+          .con {
+            color: #111;
+          }
+
+        }
+      }
     }
   }

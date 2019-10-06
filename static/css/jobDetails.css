@@ -1,0 +1,254 @@
+html {
+  font-size: 100px;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+}
+html body .headerWrap {
+  width: 100%;
+  height: 87px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #ccc;
+}
+html body .headerWrap .back {
+  width: 60px;
+  height: 87px;
+  line-height: 87px;
+  text-align: center;
+  margin-left: 0.3rem;
+}
+html body .headerWrap .back span {
+  font-size: 30px;
+  color: #333;
+}
+html body .headerWrap p.fr {
+  height: 87px;
+  line-height: 87px;
+  margin-right: 0.3rem;
+}
+html body .headerWrap p.fr .iconfont {
+  font-size: 30px;
+  color: #333;
+  margin: 10px;
+}
+html body .contentWrap {
+  position: absolute;
+  top: 88px;
+  left: 0;
+  bottom: 98px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #f5f5f6;
+}
+html body .contentWrap .content {
+  padding: 0 0.3rem;
+  background-color: #fff;
+}
+html body .contentWrap .content .generalInfo {
+  width: 100%;
+  padding: 0.46rem 0 0.42rem;
+  border-bottom: 1px solid #ccc;
+}
+html body .contentWrap .content .generalInfo .tit {
+  font-size: 0.42rem;
+  font-weight: bold;
+  color: #333;
+}
+html body .contentWrap .content .generalInfo .tit .price {
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #37c2bc;
+}
+html body .contentWrap .content .generalInfo .info {
+  margin-top: 0.25rem;
+}
+html body .contentWrap .content .generalInfo .info span.iconfont {
+  margin-right: 0.1rem;
+}
+html body .contentWrap .content .generalInfo .info span {
+  font-size: 0.24rem;
+  color: #333;
+  margin-right: 0.44rem;
+}
+html body .contentWrap .content .interviewInfo {
+  width: 100%;
+  padding: 0.36rem 0;
+  border-bottom: 1px solid #ccc;
+}
+html body .contentWrap .content .interviewInfo a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+html body .contentWrap .content .interviewInfo a .avar {
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 50%;
+}
+html body .contentWrap .content .interviewInfo a .interviewCon {
+  margin-left: 0.20rem;
+}
+html body .contentWrap .content .interviewInfo a .interviewCon .nameWrap .name {
+  font-size: 0.24rem;
+  color: #333;
+}
+html body .contentWrap .content .interviewInfo a .interviewCon .nameWrap .mark {
+  font-size: 0.17rem;
+  color: #ccc;
+}
+html body .contentWrap .content .interviewInfo a .interviewCon .intro {
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  color: #333;
+}
+html body .contentWrap .content .interviewInfo a .more {
+  font-size: 0.24rem;
+  color: #ccc;
+}
+html body .contentWrap .content .jobDetails {
+  width: 100%;
+}
+html body .contentWrap .content .jobDetails dl dt {
+  margin: 0.4rem 0 0.3rem;
+  color: #333;
+  font-size: 0.28rem;
+  font-weight: bold;
+}
+html body .contentWrap .content .jobDetails dl dd {
+  font-size: 0.2rem;
+  color: #555;
+  padding: 0.07rem;
+}
+html body .contentWrap .content .requireTags {
+  margin-top: 0.1rem;
+  padding-bottom: 0.29rem;
+  border-bottom: 1px solid #ccc;
+}
+html body .contentWrap .content .requireTags span {
+  display: inline-block;
+  padding: 0.12rem 0.16rem;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 0.2rem;
+  margin-top: 0.2rem;
+  border-radius: 0.1rem;
+  margin-right: 0.1rem;
+}
+html body .contentWrap .content .companyInfoEntry {
+  padding: 0.36rem 0 0.38rem;
+}
+html body .contentWrap .content .companyInfoEntry a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+html body .contentWrap .content .companyInfoEntry a .comAvar {
+  width: 0.78rem;
+  height: 0.78rem;
+  border-radius: 0.1rem;
+  background-color: #5bcf86;
+  color: #fff;
+  text-align: center;
+  line-height: 0.78rem;
+}
+html body .contentWrap .content .companyInfoEntry a .comInfoWrap {
+  margin-left: 0.22rem;
+}
+html body .contentWrap .content .companyInfoEntry a .comInfoWrap .comName {
+  font-size: 0.24rem;
+  color: #333;
+}
+html body .contentWrap .content .companyInfoEntry a .comInfoWrap .comIntro span {
+  font-size: 0.24rem;
+  color: #333;
+}
+html body .contentWrap .content .companyInfoEntry a .more {
+  font-size: 0.24rem;
+  color: #ccc;
+  margin-top: 0.3rem;
+}
+html body .contentWrap .content .companyAddr {
+  width: 100%;
+  height: 3.84rem;
+  overflow: hidden;
+  position: relative;
+  background-color: #87c087;
+}
+html body .contentWrap .content .companyAddr .addrNameWrap {
+  width: 80%;
+  height: 1.34rem;
+  background-color: #fff;
+  margin: 0.15rem auto;
+}
+html body .contentWrap .content .companyAddr .addrNameWrap .workSpace {
+  margin-top: 0.4rem;
+  font-size: 0.2rem;
+  color: #333;
+}
+html body .contentWrap .content .companyAddr .addrNameWrap .workName {
+  margin-top: 0.15rem;
+  font-size: 0.14rem;
+  color: #555;
+}
+html body .contentWrap .content .warmTips {
+  height: 132px;
+  overflow: hidden;
+}
+html body .contentWrap .content .warmTips .tipTit {
+  margin-top: 0.3rem;
+}
+html body .contentWrap .content .warmTips .tipTit span {
+  color: #ff3844;
+  font-size: 0.22rem;
+}
+html body .contentWrap .content .warmTips .tipTit .iconfont {
+  margin-right: 0.12rem;
+}
+html body .contentWrap .content .warmTips .tipCon {
+  margin-top: 0.3rem;
+  font-size: 0.18rem;
+  color: #333;
+}
+html body .contentWrap .content .powerWrap {
+  height: 2.1rem;
+  overflow: hidden;
+  margin-top: 0.12rem;
+}
+html body .contentWrap .content .powerWrap .top {
+  margin-top: 0.45rem;
+}
+html body .contentWrap .content .powerWrap .top .fl {
+  font-size: 0.25rem;
+  font-weight: bold;
+  color: #333;
+}
+html body .contentWrap .content .powerWrap .top .fr {
+  font-size: 0.22rem;
+  color: #a8a8a8;
+}
+html body .contentWrap .content .powerWrap .bottom {
+  margin-top: 1.1rem;
+  font-size: 0.22rem;
+  color: #616161;
+}
+html body .footerWrap {
+  width: 100%;
+  height: 98px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+html body .footerWrap .communication {
+  display: block;
+  width: 612px;
+  height: 74px;
+  line-height: 74px;
+  text-align: center;
+  background-color: #37c2bc;
+  color: #fff;
+  font-size: 22px;
+  margin: 12px auto;
+}

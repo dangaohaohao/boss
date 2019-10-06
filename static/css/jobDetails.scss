@@ -1,0 +1,372 @@
+html {
+  font-size: 100px;
+  $padding: 0.3rem;
+  $mainColor: #37c2bc;
+
+  body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 12px;
+
+    // headerWrap
+    .headerWrap {
+      width: 100%;
+      height: 87px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-bottom: 1px solid #ccc;
+
+      .back {
+        width: 60px;
+        height: 87px;
+        line-height: 87px;
+        text-align: center;
+        margin-left: $padding;
+
+        span {
+          font-size: 30px;
+          color: #333;
+        }
+      }
+
+      p.fr {
+        height: 87px;
+        line-height: 87px;
+        margin-right: $padding;
+
+        .iconfont {
+          font-size: 30px;
+          color: #333;
+          margin: 10px;
+        }
+
+        .collect {}
+
+        .share {}
+
+        .warn {}
+
+      }
+
+
+    }
+
+
+    // contentWrap
+    .contentWrap {
+      position: absolute;
+      top: 88px;
+      left: 0;
+      bottom: 98px;
+      width: 100%;
+      overflow: hidden;
+      background-color: #f5f5f6;
+
+      // content
+      .content {
+        padding: 0 $padding;
+        background-color: #fff;
+
+        // 职位大致信息
+        .generalInfo {
+          width: 100%;
+          padding: 0.46rem 0 0.42rem;
+          border-bottom: 1px solid #ccc;
+
+          .tit {
+            font-size: 0.42rem;
+            font-weight: bold;
+            color: #333;
+
+            .price {
+              font-size: 0.24rem;
+              font-weight: bold;
+              color: $mainColor;
+            }
+  
+          }
+
+         
+          .info {
+            margin-top: 0.25rem;
+
+            span.iconfont {
+              margin-right: 0.1rem;
+            }
+
+            span {
+              font-size: 0.24rem;
+              color: #333;
+              margin-right: 0.44rem;
+            }
+          }
+
+        }
+
+        // 招聘者信息
+        .interviewInfo {
+          width: 100%;
+          padding: 0.36rem 0;
+          border-bottom: 1px solid #ccc;
+
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            // 左边头像
+            .avar {
+              width: 0.8rem;
+              height: 0.8rem;
+              border-radius: 50%;
+            }
+
+            // 右边信息
+            .interviewCon {
+              margin-left: 0.20rem;
+
+              // 名字
+              .nameWrap {
+
+                .name {
+                  font-size: 0.24rem;
+                  color: #333;
+                }
+
+                .mark {
+                  font-size: 0.17rem;
+                  color: #ccc;
+                }
+              }
+
+              // 介绍
+              .intro {
+                margin-top: 0.2rem;
+                font-size: 0.24rem;
+                color: #333;
+              }
+
+            }
+
+            // 右边的图标
+            .more {
+              font-size: 0.24rem;
+              color: #ccc;
+            }
+          }
+        } 
+
+        // jobDetails
+        .jobDetails {
+          width: 100%;
+
+          dl {
+            dt {
+              margin: 0.4rem 0 0.3rem;
+              color: #333;
+              font-size: 0.28rem;
+              font-weight: bold;
+            }
+            dd {
+              font-size: 0.2rem;
+              color: #555;
+              padding: 0.07rem;
+            }
+          }
+        }
+
+        // requireTags
+        .requireTags {
+          margin-top: 0.1rem;
+          padding-bottom: 0.29rem;
+          border-bottom: 1px solid #ccc;
+
+          span {
+            display: inline-block;
+            padding: 0.12rem 0.16rem;
+            background-color: #f5f5f5;
+            color: #333;
+            font-size: 0.2rem;
+            margin-top: 0.2rem;
+            border-radius: 0.1rem;
+            margin-right: 0.1rem;
+          }
+        }
+
+        // companyInfoEntry
+        .companyInfoEntry {
+          padding: 0.36rem 0 0.38rem;
+
+          a {
+            display: block;
+            width: 100%;
+            height: 100%;
+
+            // 公司头像
+            .comAvar {
+              width: 0.78rem;
+              height: 0.78rem;
+              border-radius: 0.1rem;
+              background-color: #5bcf86;
+              color: #fff;
+              text-align: center;
+              line-height: 0.78rem;
+            }
+
+            // 公司信息
+            .comInfoWrap {
+              margin-left: 0.22rem;
+
+              .comName {
+                font-size: 0.24rem;
+                color: #333;
+              }
+
+             .comIntro {
+               span {
+                font-size: 0.24rem;
+                color: #333;
+               }
+             }
+
+            }
+
+            .more {
+              font-size: 0.24rem;
+              color: #ccc;
+              margin-top: 0.3rem;
+            }
+
+
+          }
+        }
+
+        // companyAddr
+        .companyAddr {
+          width: 100%;
+          height: 3.84rem;
+          overflow: hidden;
+          position: relative;
+          background-color: rgb(135, 192, 135);
+
+          // 地图实例
+          #allmap {
+
+          }
+          // 地点
+          .addrNameWrap {
+            width: 80%;
+            height: 1.34rem;
+            background-color: #fff;
+            margin: 0.15rem auto;
+
+            .workSpace {
+              margin-top: 0.4rem;
+              font-size: 0.2rem;
+              color: #333;
+            }
+
+            .workName {
+              margin-top: 0.15rem;
+              font-size: 0.14rem;
+              color: #555;
+            }
+          }
+
+        }
+
+        // warmTips
+        .warmTips {
+          height: 132px;
+          overflow: hidden;
+
+          .tipTit {
+
+            margin-top: 0.3rem;
+           
+            span {
+              color: #ff3844;
+              font-size: 0.22rem;
+            }
+
+            .iconfont {
+              margin-right: 0.12rem;
+            }
+          }
+
+          .tipCon {
+            margin-top: 0.3rem;
+            font-size: 0.18rem;
+            color: #333;
+          }
+
+        }
+
+        // powerWrap
+        .powerWrap {
+          height: 2.1rem;
+          overflow: hidden;
+          margin-top: 0.12rem;
+         
+          .top {
+            margin-top: 0.45rem;
+
+            .fl {
+              font-size: 0.25rem;
+              font-weight: bold;
+              color: #333;
+            }
+
+            .fr {
+              font-size: 0.22rem;
+              color: #a8a8a8;
+            }
+          }
+
+          .bottom {
+            margin-top: 1.1rem;
+            font-size: 0.22rem;
+            color: #616161;
+
+            // 有多少人
+            .nums{
+
+            }
+
+
+            // 排名
+            .rank {
+
+            }
+
+          }
+        
+
+       }
+      }
+    }
+
+    // footerWrap
+    .footerWrap {
+      width: 100%;
+      height: 98px;
+      background-color: rgba(255, 255, 255, .6);
+
+      // 立即沟通
+      .communication {
+        display: block;
+        width: 612px;
+        height: 74px;
+        line-height: 74px;
+        text-align: center;
+        background-color: #37c2bc;
+        color: #fff;
+        font-size: 22px;
+        margin: 12px auto;
+      }
+    }
+
+  }
+}
