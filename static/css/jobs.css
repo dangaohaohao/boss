@@ -125,6 +125,7 @@ html body .contentWrap .content {
   width: 100%;
 }
 html body .contentWrap .content .cont-item {
+  display: block;
   position: relative;
   padding: 0 0.3rem;
   background-color: #fff;
@@ -167,7 +168,6 @@ html body .contentWrap .content .cont-item .userWrap .userAvar {
   vertical-align: middle;
 }
 html body .contentWrap .content .cont-item .userWrap .userAvar img {
-  display: block;
   width: 100%;
   height: 100%;
   border-radius: 50%;
@@ -183,45 +183,4 @@ html body .contentWrap .content .cont-item .sarary {
   position: absolute;
   right: 0.3rem;
   top: 0.38rem;
-}
-html body .footerWrap {
-  width: 100%;
-  height: 49px;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
-html body .footerWrap .tabContent {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-html body .footerWrap .tabContent .tab-item {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-html body .footerWrap .tabContent .tab-item .iconfont {
-  font-size: 0.34rem;
-  color: #444;
-  flex: 1;
-}
-html body .footerWrap .tabContent .tab-item .unread:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 24px;
-  width: 0.1rem;
-  height: 0.1rem;
-  border-radius: 50%;
-  background-color: #ff4f59;
-}
-html body .footerWrap .tabContent .tab-item .con {
-  font-size: 0.20rem;
-  color: #afafaf;
 }
