@@ -1,0 +1,272 @@
+html {
+  font-size: 100px;
+}
+html body {
+  width: 100%;
+  height: 100%;
+  font-size: 12px;
+}
+html body .headerWrap {
+  width: 100%;
+  height: 88px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+html body .headerWrap .back {
+  position: absolute;
+  left: 0.3rem;
+  width: 30px;
+  height: 88px;
+  text-align: center;
+  line-height: 88px;
+}
+html body .headerWrap .back span {
+  font-size: 28px;
+  color: #333;
+}
+html body .headerWrap .center {
+  width: 100%;
+  height: 88px;
+  text-align: center;
+}
+html body .headerWrap .center .name {
+  font-size: 28px;
+  color: #333;
+  font-weight: bold;
+  margin-top: 10px;
+}
+html body .headerWrap .center .position {
+  font-size: 16px;
+  color: #555;
+  margin-top: 10px;
+}
+html body .headerWrap .set {
+  position: absolute;
+  right: 0.3rem;
+  width: 30px;
+  height: 88px;
+  text-align: center;
+  line-height: 88px;
+}
+html body .headerWrap .set span {
+  font-size: 28px;
+  color: #333;
+}
+html body .navWrap {
+  width: 100%;
+  height: 95px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  top: 88px;
+  left: 0;
+}
+html body .navWrap .list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+html body .navWrap .list-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html body .navWrap .list-item span {
+  flex: 1;
+  font-size: 20px;
+  color: #c4c4c4;
+  margin: 4px 0;
+}
+html body .navWrap .list-item.nofeeling span.iconfont {
+  color: #fd474c;
+}
+html body .navWrap .list-item.active span {
+  color: #37c2bc;
+}
+html body .contentWrap {
+  width: 100%;
+  position: absolute;
+  top: 183px;
+  bottom: 98px;
+  left: 0;
+  overflow: hidden;
+}
+html body .contentWrap .content {
+  width: 100%;
+  background-color: #f5f5f6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0.44rem 0;
+}
+html body .contentWrap .content li {
+  overflow: hidden;
+  margin-top: 0.42rem;
+  padding: 0 0.22rem;
+}
+html body .contentWrap .content .jobDetail {
+  padding: 0.3rem 0.2rem;
+  margin: 0 0.28rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
+}
+html body .contentWrap .content .jobDetail .mainTit {
+  font-size: 0.24rem;
+  font-weight: bold;
+  color: #333;
+}
+html body .contentWrap .content .jobDetail .mainTit .salary {
+  font-size: 0.16rem;
+  color: #37c2bc;
+}
+html body .contentWrap .content .jobDetail .info {
+  font-size: 0.2rem;
+  color: #333;
+  margin-top: 0.26rem;
+}
+html body .contentWrap .content .jobDetail .tagsWrap {
+  margin-top: 0.2rem;
+}
+html body .contentWrap .content .jobDetail .tagsWrap .tag-item {
+  padding: 0.1rem;
+  font-size: 0.2rem;
+  color: #555;
+  background-color: #f5f5f5;
+  margin-right: 0.1rem;
+  border-radius: 0.08rem;
+}
+html body .contentWrap .content .jobDetail .infoCon {
+  margin-top: 0.2rem;
+}
+html body .contentWrap .content .jobDetail .infoCon p {
+  font-size: 0.2rem;
+  color: #333;
+}
+html body .contentWrap .content .jobDetail .list {
+  margin-top: 0.18rem;
+}
+html body .contentWrap .content .jobDetail .list .list-item {
+  padding: 0.12rem 0.1rem;
+  font-size: 0.16rem;
+  color: #555;
+  background-color: #f5f5f5;
+  border-radius: 0.08rem;
+}
+html body .contentWrap .content .jobDetail .titWrap {
+  margin-top: 0.3rem;
+  padding-bottom: 0.15rem;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+html body .contentWrap .content .jobDetail .titWrap img {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  margin-right: 0.3rem;
+  float: left;
+}
+html body .contentWrap .content .jobDetail .titWrap span {
+  font-size: 0.2rem;
+  color: #555;
+  float: left;
+  margin-top: 0.1rem;
+}
+html body .contentWrap .content .jobDetail .time {
+  height: 0.7rem;
+  line-height: 0.7rem;
+}
+html body .contentWrap .content .jobDetail .time span {
+  font-size: 0.2rem;
+  color: #555;
+}
+html body .contentWrap .content .jobDetail .time .date, html body .contentWrap .content .jobDetail .time .hour {
+  margin: 0 0.04rem;
+}
+html body .contentWrap .content .left img {
+  float: left;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0 0.08rem;
+}
+html body .contentWrap .content .left span {
+  float: left;
+  background-color: #fff;
+  font-size: 0.22rem;
+  color: #333;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  max-width: 4.4rem;
+}
+html body .contentWrap .content .right img {
+  float: right;
+  border-radius: 50%;
+  width: 0.7rem;
+  height: 0.7rem;
+  margin: 0 0.08rem;
+}
+html body .contentWrap .content .right span {
+  float: right;
+  background-color: #fff;
+  font-size: 0.22rem;
+  color: #333;
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  max-width: 4.4rem;
+}
+html body .footer {
+  width: 100%;
+  height: 98px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+html body .footer .usefulExpress {
+  height: 98px;
+  line-height: 98px;
+  margin-left: 0.3rem;
+}
+html body .footer .usefulExpress .words {
+  display: inline-block;
+  font-size: 20px;
+  width: 75px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  background-color: #5dcac3;
+  border-radius: 6px;
+}
+html body .footer .inputBox {
+  width: 336px;
+  height: 98px;
+  line-height: 98px;
+  margin-left: 30px;
+}
+html body .footer .inputBox .input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+}
+html body .footer .moreWrap {
+  margin-right: 0.3rem;
+  height: 98px;
+  line-height: 98px;
+}
+html body .footer .moreWrap span {
+  display: inline-block;
+  width: 60px;
+  height: 98px;
+  font-size: 50px;
+  text-align: center;
+  line-height: 98px;
+  color: #555;
+}
