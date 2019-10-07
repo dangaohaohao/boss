@@ -99,6 +99,7 @@ html body .contentWrap {
 }
 html body .contentWrap .content {
   width: 100%;
+  min-height: 100%;
   background-color: #f5f5f6;
   position: absolute;
   top: 0;
